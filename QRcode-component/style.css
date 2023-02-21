@@ -14,7 +14,7 @@ body{
     font-Family: 'Outfit';
     letter-spacing: -0.3px;
 }
-.container{
+main{
     width: 320px;
     height: 497px;
     position: absolute;
@@ -27,22 +27,22 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 0px 10px 20px rgba(100, 100, 100, .1);
 }
-.container .qrcode{
+main .qrcode{
     width: 288px;
     height: 288px;
     border-radius: 10px;
     overflow: hidden;
 }
-.container .qrcode img{
+main .qrcode img{
     width: 100%;
 }
-.container h1{
+main h1{
     margin: 30px 0 20px;
     color: hsl(218, 44%, 22%);
     font-size: 22px;
     font-weight: 700;
 }
-.container p{
+main p{
     margin: 20px;
     color: hsl(220, 15%, 55%);
     font-size: 15px;
