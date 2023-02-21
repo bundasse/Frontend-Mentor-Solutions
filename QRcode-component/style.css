@@ -32,7 +32,7 @@ body{
     width: 100%;
 }
 .container h1{
-    margin: 1.5rem 0 1rem;
+    margin: 1.25rem 0.5rem 1rem;
     color: hsl(218, 44%, 22%);
     font-size: 1.25rem;
     font-weight: 700;
