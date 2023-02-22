@@ -10,7 +10,7 @@ body{
     font-family: 'Outfit', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-.container{
+main{
     width: 20rem;
     position: absolute;
     top:50%;
@@ -22,22 +22,22 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 0px 10px 20px rgba(100, 100, 100, .1);
 }
-.container .qrcode{
+main .qrcode{
     width: 18rem;
     height: 18rem;
     border-radius: 1rem;
     overflow: hidden;
 }
-.container .qrcode img{
+main .qrcode img{
     width: 100%;
 }
-.container h1{
+main h1{
     margin: 1.25rem 0.5rem 1rem;
     color: hsl(218, 44%, 22%);
     font-size: 1.25rem;
     font-weight: 700;
 }
-.container p{
+main p{
     margin: 0 1rem 1.5rem;
     color: hsl(220, 15%, 55%);
     font-size: 15px;
