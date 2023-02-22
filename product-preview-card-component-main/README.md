@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/bundasse/Frontend-Mentor-Solutions/tree/main/product-preview-card-component-main)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://bundasse.github.io/Frontend-Mentor-Solutions/product-preview-card-component-main/index.html)
 
 ## My process
 
