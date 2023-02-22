@@ -29,7 +29,7 @@ Users should be able to:
 ![desktop](screenshot/FrontendMentor-product-preview-card_01.png "desktop screenshot")
 ![mobile](screenshot/FrontendMentor-product-preview-card_02.png "mobile screenshot")
 
-A
+
 ### Links
 
 - Solution URL: [solution URL](https://your-solution-url.com)
