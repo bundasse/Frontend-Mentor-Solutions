@@ -124,7 +124,7 @@ main section article p{
 
 /* media query */
 @media (max-width: 400px){
-    body{padding: 0 24px;}
+    body{padding: 80px 24px;}
     main{
         width: 100%;
         height: auto;
