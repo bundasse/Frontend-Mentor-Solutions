@@ -1,0 +1,209 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+/* media query size*/
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: hsl(210, 46%, 95%);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  display: flex;
+  width: 730px;
+  height: 280px;
+  background: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 375px) {
+  main {
+    width: 327px;
+    height: auto;
+    flex-wrap: wrap;
+    letter-spacing: 0.2px;
+    box-shadow: none;
+  }
+}
+main .img {
+  width: 285px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+}
+main .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left center;
+     object-position: left center;
+}
+@media (max-width: 375px) {
+  main .img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+section {
+  width: 445px;
+  color: hsl(214, 17%, 51%);
+}
+@media (max-width: 375px) {
+  section {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+section article {
+  padding: 36px 40px 18px;
+}
+@media (max-width: 375px) {
+  section article {
+    padding: 40px 32px 20px;
+  }
+}
+section article h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (max-width: 375px) {
+  section article h1 {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+}
+section article p {
+  line-height: 1.6em;
+}
+section .author {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 32px;
+}
+@media (max-width: 375px) {
+  section .author {
+    padding: 12px 32px;
+  }
+}
+section .author img {
+  width: 40px;
+  border-radius: 50%;
+}
+section .author p {
+  flex-grow: 1;
+  margin-left: 16px;
+  color: hsl(212, 23%, 69%);
+}
+section .author p strong {
+  display: block;
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+section .author .shareBtn {
+  width: 32px;
+  height: 32px;
+  text-indent: -999999px;
+  border: 0;
+  border-radius: 50%;
+  background: url("../images/icon-share.svg") no-repeat center center hsl(210, 46%, 95%);
+  z-index: 10;
+}
+section .author .share {
+  display: none;
+  position: absolute;
+  justify-content: space-between;
+  padding: 16px 36px;
+  gap: 16px;
+  color: hsl(212, 23%, 69%);
+  border-radius: 10px;
+  background: hsl(217, 19%, 35%);
+  right: -70px;
+  bottom: 85px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 375px) {
+  section .author .share {
+    padding: 22px 120px 22px 32px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: none;
+  }
+}
+section .author .share span {
+  letter-spacing: 0.5em;
+}
+section .author .share button {
+  width: 20px;
+  height: 20px;
+  text-indent: -999999px;
+  border: 0;
+  border-radius: 50%;
+}
+section .author .share button.fb {
+  background: url("../images/icon-facebook.svg") no-repeat center center;
+}
+section .author .share button.tw {
+  background: url("../images/icon-twitter.svg") no-repeat center center;
+}
+section .author .share button.pin {
+  background: url("../images/icon-pinterest.svg") no-repeat center center;
+}
+section .author .share:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  z-index: 10;
+  border-top: 10px solid hsl(217, 19%, 35%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+@media (max-width: 375px) {
+  section .author .share:after {
+    display: none;
+  }
+}
+section .author .share.on {
+  display: flex;
+}
+
+.attribution {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
