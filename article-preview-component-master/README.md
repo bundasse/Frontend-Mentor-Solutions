@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](screenshot/desktop.png)
-![mobile](screenshot/mobile.png)
+![desktop](screenshots/desktop.png)
+![mobile](screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/bundasse/Frontend-Mentor-Solutions/tree/main/article-preview-component-master)
+- Live Site URL: [live site URL](https://bundasse.github.io/Frontend-Mentor-Solutions/article-preview-component-master/)
 
 ## My process
 
