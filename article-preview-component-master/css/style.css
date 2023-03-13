@@ -197,13 +197,4 @@ section .author .share:after {
 }
 section .author .share.on {
   display: flex;
-}
-
-.attribution {
-  width: 100%;
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
