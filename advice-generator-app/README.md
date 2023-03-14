@@ -56,8 +56,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://vuejs.org/guide/introduction.html) - Tutorial of vue.js official page is really great. It's easy to understand.
-- [Theme Configuration](https://tailwindcss.com/docs/theme) - How to customize tailwind css default themes.
+- [Introduction | Vue.js](https://vuejs.org/guide/introduction.html) - Tutorial of vue.js official page is really great. It's easy to understand.
+- [Theme Configuration - tailwind css](https://tailwindcss.com/docs/theme) - How to customize tailwind css default themes.
 
 ## Author
 
