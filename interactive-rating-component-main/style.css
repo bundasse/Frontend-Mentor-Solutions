@@ -1,2 +1,33 @@
+*{list-style: none; padding:0; margin:0;}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:hsl(216, 12%, 8%);
+}
+#content{
+    padding: 20px;
+    border-radius: 20px;
+    background: hsl(213, 19%, 18%);
+    color:white;
+}
+#rating p{
+    color:hsl(217, 12%, 63%);
+}
+#rating .rateScore{
+    display: flex;
+    justify-content: space-between;
+}
+#rating .rateScore input[type="radio"]{
+    display: none;
+}
+#rating .rateScore label{
+    display: block;
+    padding: 30px;
+    background: hsl(216, 12%, 54%);
+}
