@@ -1,4 +1,6 @@
-*{list-style: none; padding:0; margin:0;}
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{list-style: none; padding:0; margin:0; box-sizing: border-box; font-family: 'Overpass', sans-serif; font-size: 15px;}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -11,23 +13,92 @@
     background:hsl(216, 12%, 8%);
 }
 #content{
-    padding: 20px;
-    border-radius: 20px;
-    background: hsl(213, 19%, 18%);
+    width:360px;
+    padding: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(hsl(213, 19%, 18%),hsl(218, 15%, 11%));
     color:white;
 }
-#rating p{
+#content>div{
+    display: none;
+}
+#content>.show{
+    display: block;
+}
+h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+p{
     color:hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+    font-size: 0.9em;
+}
+/* rating */
+#rating .star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: hsl(216, 12%, 54%, 0.2);
 }
 #rating .rateScore{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
 }
 #rating .rateScore input[type="radio"]{
     display: none;
 }
 #rating .rateScore label{
     display: block;
-    padding: 30px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    background: hsl(216, 12%, 54%, 0.2);
+    cursor: pointer;
+}
+#rating .rateScore input[type="radio"]:checked+label{
+    color:white;
     background: hsl(216, 12%, 54%);
+}
+#rating .rateScore label:hover{
+    color:white;
+    background: hsl(25, 97%, 53%);
+}
+#rating #submit{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+    color:white;
+    letter-spacing: 0.2rem;
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#rating #submit:hover{
+    color:hsl(25, 97%, 53%);
+    background: white;
+}
+/* thankyou */
+
+#thankyou{
+    text-align: center;
+}
+#thankyou .rateMsg{
+    margin: 20px 0 30px;
+}
+#thankyou .rateMsg span{
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    color:hsl(25, 97%, 53%);
+    background: hsl(216, 12%, 54%, 0.2);
 }

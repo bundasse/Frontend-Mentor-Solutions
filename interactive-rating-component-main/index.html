@@ -2,20 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="wrapper">
   <div id="content">
-    <form id="rating">
-      <img src="images/icon-star.svg" alt="icon-star">
+    <div id="rating" class="show">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="icon-star">
+      </div>
       <h2>
         How did we do?
       </h2>
@@ -29,14 +27,16 @@
         <input type="radio" name="rate" id="rate4" value="4"><label for="rate4">4</label>
         <input type="radio" name="rate" id="rate5" value="5"><label for="rate5">5</label>
       </div>
-      <button>
-        Submit
+      <button id="submit">
+        SUBMIT
       </button>
-    </form>
+    </div>
     <div id="thankyou">
       <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
-      <p>
-        You selected <!-- Add rating here --> out of 5
+      <p class="rateMsg">
+        <span>
+          You selected <!-- Add rating here --> out of 5
+        </span>
       </p>
       <h2>
         Thank you!
@@ -51,5 +51,6 @@
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="https://github.com/bundasse">bundasse</a>.
 </div>
+<script src="script.js"></script>
 </body>
 </html>
