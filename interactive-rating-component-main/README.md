@@ -32,7 +32,7 @@ mobile
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/bundasse/Frontend-Mentor-Solutions/tree/1bcbb61c6485f6f31dde08092b228d21ac185af2/interactive-rating-component-main)
+- Solution URL: [solution URL](https://github.com/bundasse/Frontend-Mentor-Solutions/tree/main/interactive-rating-component-main)
 - Live Site URL: [live site URL](https://frontend-mentor-solutions-murex.vercel.app/interactive-rating-component-main/index.html)
 
 ## My process
