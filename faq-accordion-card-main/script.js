@@ -1,4 +1,7 @@
 const questions = document.querySelectorAll('.question');
-questions.addEventListener("click", function(){
-    console.log(this);
-})
+
+for(let i=0; i<questions.length;i++){
+    questions[i].addEventListener("click",(e)=>{
+        e.currentTarget.classList.toggle('open');
+    })
+}
