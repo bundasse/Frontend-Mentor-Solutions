@@ -48,6 +48,10 @@ Users should be able to:
 
 ### What I learned
 
+- review basic of accordion menu, CSS animation.
+- making node tree before development.
+
+I think this challenge is little difficult. I fixed my node tree really many times in this challange😂.
 
 
 ### Continued development
@@ -57,8 +61,7 @@ Users should be able to:
 
 ### Useful resources
 
-<!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+- [Using CSS animations-MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations) - Best guide for CSS animation.
 
 ## Author
 
