@@ -1,6 +1,18 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
-
+/* colors */
+:root{
+    --r: hsl(1, 90%, 64%);
+    --b: hsl(219, 85%, 26%);
+    --w: hsl(0, 0%, 100%);
+    --pale-gb: hsl(210, 60%, 98%);
+    --light-gb1: hsl(211, 68%, 94%);
+    --light-gb2: hsl(205, 33%, 90%);
+    --gb: hsl(219, 14%, 63%);
+    --dark-gb: hsl(219, 12%, 42%);
+    --heavy-b: hsl(224, 21%, 14%);
+}
+/* reset */
 *{
     margin:0;
     padding:0;
@@ -8,6 +20,58 @@
     list-style: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-a{text-decoration: none;}
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+#wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pale-gb);
+}
+#container{
+    width: 720px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--w);
+    box-shadow: 1px 1px 10px var(--light-gb2);
+    font-size: 16px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li .avatar img{
+    width: 50px;
+}
+li .text{
+    flex-basis: 85%;
+}
+li .text span{
+    color:var(--gb);
+}
+li .comment:hover{
+    background-color: var(--light-gb1);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color:var(--dark-gb);
+}
+a:hover{
+    color:var(--b)
+}
+.name{
+    color:var(--heavy-b);
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    font-weight: 500;
+    color: hsl(228, 45%, 44%);
+}
