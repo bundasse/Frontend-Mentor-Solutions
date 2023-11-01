@@ -31,9 +31,21 @@
     width: 720px;
     padding: 20px;
     border-radius: 8px;
+    color: var(--dark-gb);
     background-color: var(--w);
     box-shadow: 1px 1px 10px var(--light-gb2);
     font-size: 16px;
+}
+.containerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.containerTop button{
+    font-size:16px;
+    color: var(--dark-gb);
+    border:none;
+    background-color: transparent;
 }
 ul{
     display: flex;
@@ -45,6 +57,9 @@ li{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+li .avatar {
+    text-align: center;
+}
 li .avatar img{
     width: 50px;
 }
@@ -53,6 +68,11 @@ li .text{
 }
 li .text span{
     color:var(--gb);
+}
+li .comment{
+    padding: 20px;
+    border:1px solid var(--light-gb2);
+    border-radius: 5px;
 }
 li .comment:hover{
     background-color: var(--light-gb1);
