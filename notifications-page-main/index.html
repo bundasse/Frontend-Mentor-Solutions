@@ -14,40 +14,46 @@
     <div id="container">
       <div class="containerTop">
         <h2>
-        Notifications <span>3</span>
+          Notifications <span>3</span>
         </h2>
-        <button>
+        <button onclick="read()">
           Mark all as read
         </button>
       </div>
       <ul>
-        <li>
-          <div class="avatar"><img src="./assets/images/avatar-mark-webber.webp" alt=""></div>
+        <li class="notRead">
+          <div class="avatar"><img src="./assets/images/avatar-mark-webber.webp" alt="avatar-mark-webber"></div>
           <div class="text">
             <p>
-              <a href="#" class="name">Mark Webber</a> reacted to your recent post <a href="#">My first tournament today!</a>
+              <span>
+                <a href="#" class="name">Mark Webber</a> reacted to your recent post <a href="#">My first tournament today!</a>
+              </span>
             </p>
             <span>
               1m ago
             </span>
           </div>
         </li>
-        <li>
-          <div class="avatar"><img src="./assets/images/avatar-angela-gray.webp" alt=""></div>
+        <li class="notRead">
+          <div class="avatar"><img src="./assets/images/avatar-angela-gray.webp" alt="avatar-angela-gray"></div>
           <div class="text">
             <p>
-              <a href="#" class="name">Angela Gray</a> followed you
+              <span>
+                <a href="#" class="name">Angela Gray</a> followed you
+              </span>
             </p>
             <span>
               5m ago
             </span>
           </div>
         </li>
-        <li>
-          <div class="avatar"><img src="./assets/images/avatar-jacob-thompson.webp" alt=""></div>
+        <li class="notRead">
+          <div class="avatar"><img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar-jacob-thompson"></div>
           <div class="text">
             <p>
-              <a href="#" class="name">Jacob Thompson</a> has joined your group <a href="#">Chess Club</a>
+              <span>
+                <a href="#" class="name">Jacob Thompson</a> has joined your group <a href="#">Chess Club</a>
+              </span>
             </p>
             <span>
               1 day ago
@@ -55,7 +61,7 @@
           </div>
         </li>
         <li>
-          <div class="avatar"><img src="./assets/images/avatar-rizky-hasanuddin.webp" alt=""></div>
+          <div class="avatar"><img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar-rizky-hasanuddin"></div>
           <div class="text">
             <p>
               <a href="#" class="name">Rizky Hasanuddin</a> sent you a private message
@@ -70,7 +76,7 @@
           </div>
         </li>
         <li>
-          <div class="avatar"><img src="./assets/images/avatar-kimberly-smith.webp" alt=""></div>
+          <div class="avatar"><img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar-kimberly-smith"></div>
           <div class="text">
             <p>
               <a href="#" class="name">Kimberly Smith</a> commented on your picture
@@ -79,10 +85,10 @@
               1 week ago
             </span>
           </div>
-          <div class="img"><img src="./assets/images/image-chess.webp" alt=""></div>
+          <div class="img"><a href="#"><img src="./assets/images/image-chess.webp" alt="image-chess"></a></div>
         </li>
         <li>
-          <div class="avatar"><img src="./assets/images/avatar-nathan-peterson.webp" alt=""></div>
+          <div class="avatar"><img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar-nathan-peterson"></div>
           <div class="text">
             <p>
               <a href="#" class="name">Nathan Peterson</a> reacted to your recent post <a href="#">5 end-game strategies to increase your win rate</a>
@@ -93,7 +99,7 @@
           </div>
         </li>
         <li>
-          <div class="avatar"><img src="./assets/images/avatar-anna-kim.webp" alt=""></div>
+          <div class="avatar"><img src="./assets/images/avatar-anna-kim.webp" alt="avatar-anna-kim"></div>
           <div class="text">
             <p>
               <a href="#" class="name">Anna Kim</a> left the group <a href="#">Chess Club</a>

@@ -21,15 +21,14 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 #wrapper{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--pale-gb);
 }
 #container{
-    width: 720px;
-    padding: 20px;
+    width: 730px;
+    padding: 36px 30px;
     border-radius: 8px;
     color: var(--dark-gb);
     background-color: var(--w);
@@ -40,42 +39,90 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-bottom:32px;
 }
+.containerTop h2{
+    text-align: end;
+    color: var(--heavy-b);
+}
+.containerTop h2 span{
+    display: inline-block;
+    padding: 2px 8px;
+    font-size:16px;
+    background-color: var(--b);
+    border-radius: 4px;
+    color: var(--w);
+}
+
 .containerTop button{
     font-size:16px;
     color: var(--dark-gb);
     border:none;
     background-color: transparent;
+    cursor: pointer;
 }
 ul{
     display: flex;
     flex-direction: column;
-    gap:12px;
+    gap:8px;
 }
 li{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    position: relative;
+    padding:16px 20px;
+    border-radius: 8px;
 }
+li.notRead{    background-color: var(--pale-gb);}
 li .avatar {
     text-align: center;
+    margin-right: 16px;
 }
 li .avatar img{
-    width: 50px;
+    width: 45px;
 }
 li .text{
-    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
 }
 li .text span{
     color:var(--gb);
 }
+li.notRead .text p span{
+    position: relative;
+}
+li.notRead .text p span::after{
+    display: inline-block;
+    position: absolute;
+    content:'';
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: var(--r);
+    box-shadow: 0 0 2px var(--r);
+    top:7px;
+    right: -10px;
+}
+li .text span{
+    margin-top:4px;  
+}
 li .comment{
+    margin-top:12px;
     padding: 20px;
-    border:1px solid var(--light-gb2);
+    border:1px solid var(--light-gb1);
     border-radius: 5px;
 }
 li .comment:hover{
     background-color: var(--light-gb1);
+}
+li .img{
+    position: absolute;
+    width: 45px;
+    height:45px;
+    right:20px;
+}
+li .img img{
+    width: 45px;
+    height:45px;
 }
 a{
     text-decoration: none;
@@ -89,7 +136,9 @@ a:hover{
     color:var(--heavy-b);
 }
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    text-align: center;
+    height: 30px;
 }
 .attribution a {
     font-weight: 500;
